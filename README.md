@@ -8,3 +8,19 @@ Mount the EFI partition in macOS using:
 sudo diskutil unmount disk0s1
 ```
 
+## Versions
+### Bootloader
+Clover 5118.
+
+### Kexts
+
+Kext                 | Version     | Source
+-------------------- | ----------- | ------
+ACPI Battery Manager | 1.90.1      |
+Lilu                 | 1.4.9       |
+Realtek RTL8111      | 2.3.0       |
+Realtek WLAN U       | 1830.32.b17 |
+Realtek WLAN U1827   | 1827.4.b36  |
+VirtualSMC           | 1.1.8       |
+VoodooHDA            | 2.9.2       |
+VoodooPS2Controller  | 1.9.2       |

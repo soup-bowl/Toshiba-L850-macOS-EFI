@@ -17,7 +17,7 @@ This is the contents of the EFI folder, so ensure you clone this into the EFI pa
 
 ## 💻 Versions
 ### 🥾 Bootloader
-Clover 5118.
+Clover 5118. [Original configuration source](https://github.com/RehabMan/OS-X-Clover-Laptop-Config/blob/master/config_HD4000_1366x768.plist).
 
 ### 🧩 Kexts
 

@@ -23,4 +23,4 @@ Realtek WLAN U       | 1830.32.b17 | https://github.com/RehabMan/OS-X-Realtek-Ne
 Realtek WLAN U1827   | 1827.4.b36  | https://github.com/RehabMan/OS-X-Realtek-Network
 VirtualSMC           | 1.1.8       | https://github.com/acidanthera/VirtualSMC
 VoodooHDA            | 2.9.2       | https://sourceforge.net/projects/voodoohda
-VoodooPS2Controller  | 1.9.2       | https://github.com/acidanthera/VoodooPS2
+VoodooPS2Controller  | 1.9.2       | https://bitbucket.org/RehabMan/os-x-voodoo-ps2-controller

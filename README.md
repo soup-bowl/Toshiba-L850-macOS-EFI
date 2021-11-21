@@ -1,13 +1,25 @@
-# Toshiba Satelite Pro L850-1UJ, EFI Partition
-Contains all the EFI data to start-up using Clover. **Secure boot must be disabled**.
+# 🍏 Toshiba Satelite Pro L850-1UJ, EFI Partition
+Contains all the EFI data to start-up using Clover. **Secure boot must be disabled**. [Read more about this Hackintosh build here](https://www.soupbowl.io/2020/04/toshiba-satellite-pro-l850-hackintosh-revisited/).
 
-WiFi chip doesn't work, so use a WiFi dongle (Edimax works fine). This isn't a pre-installed kext, use the installer packaged with this repo.
+This is the contents of the EFI folder, so ensure you clone this into the EFI partition's `EFI` folder.
 
-## Versions
-### Bootloader
+## 🚀 Functionality
+- ✅ Screen (full graphics)
+- ✅ Display brightness (media keys don't work)
+- ✅ Keyboard & trackpad
+- ✅ Battery monitor
+- ✅ USB
+- ✅ Ethernet (registers as eth0 - App Store/FaceTime works)
+- ✅ Speakers
+- ❌ Suspend
+- ❌ WiFi (Using Edimax N150 using [Chris111 drivers](https://github.com/chris1111/Wireless-USB-Adapter-Clover))
+- ❌ Keyboard brightness controls
+
+## 💻 Versions
+### 🥾 Bootloader
 Clover 5118.
 
-### Kexts
+### 🧩 Kexts
 
 Kext                 | Version     | Source
 -------------------- | ----------- | ------
@@ -20,7 +32,7 @@ VirtualSMC           | 1.1.8       | https://github.com/acidanthera/VirtualSMC
 VoodooHDA            | 2.9.2       | https://sourceforge.net/projects/voodoohda
 VoodooPS2Controller  | 1.9.2       | https://bitbucket.org/RehabMan/os-x-voodoo-ps2-controller
 
-## Tips
+## ℹ️ Tips
 ### Mount EFI
 Mount the EFI partition in macOS using:
 ```
